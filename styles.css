@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.body {
+    min-width:50%;
+}
+.nav-buttons {
+font-family: 'Roboto', sans-serif;
+background-color: purple;
+border:none;
+border-radius: 4px;
+width:60px;
+height:30px;
+color: white;
+margin-bottom: 10px;
+margin-left:10px;
+}
+.nav-buttons:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.nav-buttons:active {
+transform:translateY(1px);
+opacity: 0.7;
+}
+
+.email-label {
+    font-family: 'Roboto', sans-serif;
+}
+.email-input {
+    padding-left:7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    border-width:1px;
+    border-color: black;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius:5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 70px;
+}
+.left-section {
+    color:purple;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+}
+.right-section {
+    display: flex;
+    flex-direction: row;
+}
+.heading {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:purple;
+    margin-bottom: 0px;
+}
+.sub-heading {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    font-size: 13px;
+    margin-top: 0px;
+}
+.horizontal-line {
+    color:purple;
+    
+}
+.in-stock-title {
+    font-family: 'Roboto', sans-serif;
+    color:purple;
+    margin-bottom: 0px;
+}
+.appliances-template {
+    display:flex;
+    flex-direction:row;
+    margin-top:0px;
+    margin-bottom: 50px;
+}
+.appliance-box {
+ border: 2px solid purple;
+ border-radius:5px;
+ margin-top: 15px;
+ width:280px;
+ height:380px;
+ margin-right: 15px;
+ display:flex;
+ flex-direction: column;
+}
+.appliance-image {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height:250px;
+   }
+   .appliance-info {
+    border-top: 2px solid black;
+    border-top-color: purple;
+    margin-left: 5px;
+    margin-right: 5px;
+    height:100px;
+    line-height:4px;
+    margin-bottom:0px;
+   }
+.info-title {
+ font-family: 'Roboto', sans-serif;
+color:purple;
+font-weight: bold;
+}
+.image-itself {
+    height:250px;
+    width:270px;
+}
+.explore-button {
+font-family: 'Roboto', sans-serif;
+background-color: purple;
+border:none;
+border-radius: 4px;
+width:270px;
+height:30px;
+color: white;
+}
+.explore-button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.explore-button:active {
+    transform:translateY(1px);
+    opacity: 0.7;
+}
+.footer-info {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    background-color: purple;
+    height:200;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.main-order-page-headings {
+    font-family:'Roboto', sans-serif;
+    color: purple;
+    line-height:2px;
+}
+.order-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color:rgb(82, 81, 84);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.order-template {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.order-form {
+border: 1px solid rgb(82, 81, 84);
+margin-top: 30px;
+width:400px;
+height:500px;
+border-radius: 5px;
+padding-top: 15px;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+.input-box {
+height:30px;
+width:350px;
+font-size: 15px;
+padding-right:20px;
+padding-left: 20px;
+border-radius: 5px;
+border:solid 4px purple;
+}
+.form-label {
+ font-family: 'Roboto', sans-serif;
+ color: rgb(82, 81, 84);
+
+}
+.place-order-button {
+    font-family: 'Roboto', sans-serif;
+    background-color: purple;
+    border:none;
+    border-radius: 4px;
+    width:60px;
+    height:30px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left:10px;
+    width:120px;
+    margin-top:25px;
+    margin-left: 277px;
+}
+.place-order-button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.place-order-button:active {
+    transform:translateY(1px);
+    opacity: 0.7;
+}
+.payment-section {
+    border: solid 4px lightgrey;
+    border-radius: 4px;
+    border-color: purple;
+    padding-left: 20px;
+    width:200px;
+
+}
+.payment-method-text {
+    font-family: 'Roboto', sans-serif;
+    line-height: 10px;
+}
+.message-section-template {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.message-section {
+    border: 1px solid black;
+    margin-top:40px;
+    height:350px;
+    border-radius: 4px;
+    padding-left: 50px;
+    width:450px;
+
+}
+.text-area {
+    width:350px;
+    height:200px;
+    border: 4px solid purple;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-right: 20px;
+    font-family:'Roboto', sans-serif; ;
+    font-size: 15px;
+}
+.send-button {
+font-family: 'Roboto', sans-serif;
+background-color: purple;
+border:none;
+border-radius: 4px;
+width:60px;
+height:30px;
+color: white;
+margin-bottom: 10px;
+}
+.send-button:hover {
+cursor: pointer;
+opacity: 0.9;
+}
+.send-button:active {
+transform:translateY(1px);
+opacity: 0.7;
+}
+
+
+
+
+
